@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<input
+  className="sc-AxjAm hxBlYH"
+  onChange={[Function]}
+  placeholder="Search a launch"
+  type="text"
+/>
+`;

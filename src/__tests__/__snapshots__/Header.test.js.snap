@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="sc-AxjAm bBVJHf"
+>
+  <h1
+    className="sc-AxirZ HxwXi"
+  >
+    SpaceX Monitoring
+  </h1>
+  <h2
+    className="sc-AxiKw fmMorb"
+  >
+    An application that lists all SpaceX launches and launch details.
+  </h2>
+</header>
+`;

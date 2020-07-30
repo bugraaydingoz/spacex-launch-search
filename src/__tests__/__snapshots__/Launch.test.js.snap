@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-AxhCb fxxzMA"
+>
+  <img
+    alt="Launch picture"
+    className="sc-AxhUy jvaykL"
+    src="test"
+  />
+  <div
+    className="sc-AxgMl kGZRVh"
+  >
+    <div
+      className="sc-fzozJi gEVIIe"
+      style={
+        Object {
+          "justifyContent": "unset",
+        }
+      }
+    >
+      <h3
+        className="sc-AxheI ijdgJv"
+      >
+        test
+      </h3>
+      <div
+        className="sc-AxirZ Linil"
+        type="success"
+      >
+        SUCCESS
+      </div>
+    </div>
+    <div
+      className="sc-fzozJi gEVIIe"
+    >
+      <p
+        className="sc-AxmLO gBaJEW"
+      >
+        test
+      </p>
+    </div>
+    <div
+      className="sc-fzozJi gEVIIe"
+    >
+      <div
+        className="sc-fzoLsD iAaohI"
+      >
+        <span
+          className="sc-fznKkj iVLJTV"
+        >
+          <div
+            className="sc-fzplWN dxnSRB"
+          />
+            Launched on  
+          <span
+            className="sc-fznyAO fnMzL"
+          >
+            1.8.2020
+          </span>
+        </span>
+        <span
+          className="sc-fznKkj iVLJTV"
+        >
+          <div
+            className="sc-fzplWN dxnSRB"
+          />
+            
+          <span
+            className="sc-fznyAO fnMzL"
+          >
+            Falcon 1
+          </span>
+            rocket is used
+        </span>
+      </div>
+      <div
+        className="sc-fzpans jpxutW"
+      >
+        <button
+          className="sc-AxjAm lhlWzM"
+          onClick={[Function]}
+        >
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

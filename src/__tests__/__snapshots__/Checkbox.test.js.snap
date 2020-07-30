@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<label
+  className="sc-AxjAm jtKjGz"
+>
+  Test
+  <input
+    checked={true}
+    className="sc-AxirZ cEJisw"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    checked={true}
+    className="sc-AxiKw lgQkCS"
+  />
+</label>
+`;
