@@ -1,6 +1,6 @@
 # SpaceX Launch Search
 
-![](./images/preview.mov)
+![Preview](images/preview.gif)
 
 Launch search is a single page react application where you can see all the launches that made by SpaceX.
 
