@@ -13,6 +13,10 @@ export const Heading1 = styled.h1`
   margin: 0 0 20px 0;
   font-weight: bold;
   font-size: 70px;
+
+  @media (max-width: 768px) {
+    font-size: 35px;
+  }
 `
 
 export const Heading2 = styled.h2`

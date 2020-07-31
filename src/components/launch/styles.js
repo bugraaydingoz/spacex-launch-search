@@ -5,6 +5,10 @@ export const LaunchListContainer = styled.div`
   flex-direction: column;
   margin: 0 auto 60px auto;
   width: 660px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 export const LaunchContainer = styled.div`
@@ -17,6 +21,11 @@ export const LaunchContainer = styled.div`
   &:last-child {
     margin-bottom: 0;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: auto;
+  }
 `
 
 export const Image = styled.img`
@@ -24,6 +33,11 @@ export const Image = styled.img`
   background-color: #1f1f1f;
   width: 220px;
   height: 100%;
+
+  @media (max-width: 768px) {
+    height: 100px;
+    align-self: center;
+  }
 `
 
 export const DetailsContainer = styled.div`
