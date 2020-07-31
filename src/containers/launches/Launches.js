@@ -24,12 +24,24 @@ export function Launches() {
     fetch('https://api.spacexdata.com/v4/launches').then((res) => res.json())
   )
 
+  const { data: rockets } = useQuery('rockets', () =>
+    fetch('https://api.spacexdata.com/v4/rockets').then((res) => res.json())
+  )
+
   if (error) {
     console.error('An error has occurred: ' + error.message)
   }
 
   const { setFilters, filteredLaunches } = useFilters(launches, defaultFilters)
   const showLaunches = !isLoading && launches.length > 0
+
+  function rocketName(id) {
+    const rocket = rockets?.find((r) => r.id === id)
+    if (rocket) {
+      return rocket.name
+    }
+    return ''
+  }
 
   return (
     <LaunchesContainer>
@@ -45,7 +57,11 @@ export function Launches() {
         {/* Show launches */}
         {showLaunches &&
           filteredLaunches.map((launch) => (
-            <Launch key={launch.name} {...launch} />
+            <Launch
+              key={launch.name}
+              rocketName={rocketName(launch.rocket)}
+              {...launch}
+            />
           ))}
       </LaunchList>
     </LaunchesContainer>

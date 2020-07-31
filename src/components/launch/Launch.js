@@ -49,7 +49,15 @@ function formatDate(utc) {
 }
 
 export const Launch = React.memo((props) => {
-  const { name, links, details, success, upcoming, date_utc } = props
+  const {
+    name,
+    links,
+    details,
+    success,
+    upcoming,
+    date_utc,
+    rocketName,
+  } = props
   const imageUrl = links.flickr.original[0] || './icons/space-ship.svg'
 
   function openTab(link) {
@@ -73,7 +81,7 @@ export const Launch = React.memo((props) => {
         </Row>
         <Row>
           <Column>
-            <Details rocket="Falcon 1" date={formatDate(date_utc)} />
+            <Details rocket={rocketName} date={formatDate(date_utc)} />
           </Column>
           <FlexEnd>
             <Button onClick={() => openTab(links.article)}>LEARN MORE</Button>
